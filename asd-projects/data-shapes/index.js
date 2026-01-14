@@ -36,7 +36,7 @@ $(document).ready(function () {
 
   // TODO 1: create a new shape object and add it to the array
   var shape = {
-    color: "red",
+    color: "blue",
     shape: "circle",
     repeat: 3,
   }
@@ -44,7 +44,7 @@ dataShapes.push(shape)
   // TODO 2: add a new property to all data shapes
   for (var i = 0; i < dataShapes.length; i++) {
     var currentShape = dataShapes[i]; 
-    if (currentShape.color === "green") {
+    if (currentShape.color === "blue") {
       currentShape.goodBehavior = "bounce";
     }
     else if (currentShape.color === "red") {
@@ -72,7 +72,7 @@ dataShapes.push(shape)
     repeat++;
     setBackgroundWithMixed (data, repeat);
     animationDetails.displayType = 3; 
-    
+
   }
 
   /* function handleBad (data, repeat) {
