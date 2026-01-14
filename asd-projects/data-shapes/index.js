@@ -72,6 +72,7 @@ dataShapes.push(shape)
     repeat++;
     setBackgroundWithMixed (data, repeat);
     animationDetails.displayType = 3; 
+    
   }
 
   /* function handleBad (data, repeat) {
